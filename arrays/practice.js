@@ -100,8 +100,6 @@ function evenFinder(nums){
 }
 
 
-
-
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 

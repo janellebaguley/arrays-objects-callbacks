@@ -178,7 +178,9 @@ each(names, function(item, indice){
 */
 
 function getUserById(users, id, cb){
-
+    const foundUserArr = users.filter(users => users.id === id)
+    const foundUser = foundUserArr[0]
+    cb(foundUser)
 }
 
 // Do not edit the code below.
