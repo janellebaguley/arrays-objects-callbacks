@@ -94,11 +94,12 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 function evenFinder(nums){
   let evens =[]
   for(let i = 0; i < nums.length; i++){
-    if (nums[i] % 2 === 0)
-    evens.push(nums[i]);
+    if (nums[i] % 2 === 0){
+    return evens.push(nums[i]) 
+    }
   }
 }
-
+evens()
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -121,9 +122,17 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
   and the second item in the array being the odds array (all the odd values from numbersArray).
 */
 
-// function divider(numbersArray){
-
-// }
+function divider(numbersArray){
+  let evens=[]
+  let odds = []
+  for(let i=0; i<numbersArray.length; i++){
+    if(numbersArray[i] %2 === 0){
+      evens.push(numbersArray[i])
+    }else {
+      odds.push(numbersArray[i])
+    }
+  }
+}
 
 
 ////////// PROBLEM 7 //////////
@@ -144,7 +153,14 @@ var getRandomArbitrary = function() {
   If it is, return true, if it's not, return false
 */
 
-//Code Here
+function finder(arr){
+  let randomNumber = getRandomArbitrary()
+  if(randomNumber === true){
+    return true;
+  }else{
+    return false
+  }
+}
 
 
 
@@ -173,7 +189,9 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
   addItem() --> [];
 */
 
-//Code Here
+function removeItem(myGroceryList, item){
+
+}
 
 
 
